@@ -11,13 +11,16 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="navbar-nav nav">
-                <li>
+                <li class="{{Request::is('home') ? 'active' : ''}}">
                     <a href="home">Home</a>
                 </li>
-                <li>
+                <li class="{{Request::is('messages') ? 'active' : ''}}">
+                    <a href="messages">Messages</a>
+                </li>
+                <li class="{{Request::is('about') ? 'active' : ''}}">
                     <a href="about">About</a>
                 </li>
-                <li>
+                <li class="{{Request::is('contact') ? 'active' : ''}}">
                     <a href="contact">Contact</a>
                 </li>
             </ul>
