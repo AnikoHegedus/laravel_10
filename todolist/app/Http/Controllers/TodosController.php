@@ -15,7 +15,7 @@ class TodosController extends Controller
     public function index()
     {
         $todos = Todo::all();
-        var_dump($todos);
+        return view('todos.index')->with('todos', $todos);
     }
 
     /**
