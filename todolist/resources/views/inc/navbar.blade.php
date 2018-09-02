@@ -12,7 +12,7 @@
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="navbar-nav nav">
                     <li class="{{Request::is('home') ? 'active' : ''}}">
-                        <a href="home">Home</a>
+                        <a href="/todolist/public/home">Home</a>
                     </li>
                     <li class="{{Request::is('/todolist/public/todo/create') ? 'active' : ''}}">
                         <a href="/todolist/public/todo/create">Create Todo</a>
