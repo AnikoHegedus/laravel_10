@@ -7,9 +7,9 @@
     @foreach ($todos as $todo)
         <div class="well">
             <h3>
-                {{ $todo->text }}
-                <span class="label label-danger">{{ $todo->due }}</span>
+                <a href='todo/{{$todo->id}}'> {{ $todo->text }} </a>
             </h3>
+            <span class="label label-danger">{{ $todo->due }}</span>
         </div>
     @endforeach
 @endif
