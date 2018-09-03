@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>To do list</title>
-    <link rel="stylesheet" href="css/app.css">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="/todolist/public/css/app.css">
 </head>
 <body>
     @include('inc.navbar')
