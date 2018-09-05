@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
@@ -65,10 +64,9 @@
             </div>
         </div>
     </div>
-</div>
 
 <div class="col-md-6 col-md-offset-4">
-<p>Currently there are two users registered, feel free to use these credentials</p>
+<p>Currently there are two users registered, feel free to use these credentials or register a new one.</p>
 <ol>
     <li>
         <ul>
